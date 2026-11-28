@@ -84,3 +84,6 @@
 # medicine_id      INT              FOREIGN KEY REFERENCES medicines(medicine_id)
 # quantity         INT              NOT NULL
 # unit_price       DECIMAL(10,2)    NOT NULL
+
+
+# wamp zamp : php , aphachi , mysqli posgress 

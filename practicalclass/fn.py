@@ -13,7 +13,7 @@ number = 30  # global
 
 
 def view():
-    global number
+    global number  # noqa: PLW0602
     print("global ", number)
 
     print(number + 1)
